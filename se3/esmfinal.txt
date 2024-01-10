@@ -1,0 +1,208 @@
+/home/22zjl/.conda/envs/bcell/bin/python3 /mnt/Data1/zjl/PCBEP/se3/train_esmfinal.py
+Using backend: pytorch
+/mnt/Data1/zjl/PCBEP/se3/train_esmfinal.py:85: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  graph.ndata['pos'] = torch.tensor(points, dtype=torch.float32)
+/mnt/Data1/zjl/PCBEP/se3/train_esmfinal.py:86: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  graph.ndata['f'] = torch.tensor(features, dtype=torch.float32)
+/mnt/Data1/zjl/PCBEP/se3/train_esmfinal.py:90: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  target_features = torch.tensor(target_features, dtype=torch.float32)
+/mnt/Data1/zjl/PCBEP/se3/train_esmfinal.py:100: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  graph.edata['d'] = torch.tensor(dist, dtype=torch.float32)
+/home/22zjl/.conda/envs/bcell/lib/python3.8/site-packages/torch_geometric/deprecation.py:22: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+[    1/15000] train_loss: 1.29025 valid_loss: 1.13817 AUC: 0.70169AP: 0.33375
+Validation loss decreased (inf --> 1.138171).  Saving model ...
+[    2/15000] train_loss: 1.20683 valid_loss: 1.08422 AUC: 0.71354AP: 0.34210
+Validation loss decreased (1.138171 --> 1.084221).  Saving model ...
+[    3/15000] train_loss: 1.16228 valid_loss: 1.11906 AUC: 0.70595AP: 0.33081
+EarlyStopping counter: 1 out of 7
+[    4/15000] train_loss: 1.13990 valid_loss: 1.10018 AUC: 0.70863AP: 0.33632
+EarlyStopping counter: 2 out of 7
+[    5/15000] train_loss: 1.12203 valid_loss: 1.12541 AUC: 0.69568AP: 0.32968
+EarlyStopping counter: 3 out of 7
+[    6/15000] train_loss: 1.10359 valid_loss: 1.16233 AUC: 0.70666AP: 0.34076
+EarlyStopping counter: 4 out of 7
+[    7/15000] train_loss: 1.07458 valid_loss: 1.17900 AUC: 0.68960AP: 0.30987
+EarlyStopping counter: 5 out of 7
+[    8/15000] train_loss: 1.05011 valid_loss: 1.18569 AUC: 0.70365AP: 0.32239
+Epoch 00008: reducing learning rate of group 0 to 8.0000e-05.
+EarlyStopping counter: 6 out of 7
+[    9/15000] train_loss: 1.03160 valid_loss: 1.18083 AUC: 0.70110AP: 0.31458
+EarlyStopping counter: 7 out of 7
+Early stopping
+/mnt/Data1/zjl/PCBEP/se3/train_esmfinal.py:85: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  graph.ndata['pos'] = torch.tensor(points, dtype=torch.float32)
+/mnt/Data1/zjl/PCBEP/se3/train_esmfinal.py:86: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  graph.ndata['f'] = torch.tensor(features, dtype=torch.float32)
+/mnt/Data1/zjl/PCBEP/se3/train_esmfinal.py:90: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  target_features = torch.tensor(target_features, dtype=torch.float32)
+/mnt/Data1/zjl/PCBEP/se3/train_esmfinal.py:100: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  graph.edata['d'] = torch.tensor(dist, dtype=torch.float32)
+/home/22zjl/.conda/envs/bcell/lib/python3.8/site-packages/torch_geometric/deprecation.py:22: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+[    1/15000] train_loss: 1.30616 valid_loss: 1.11598 AUC: 0.72816AP: 0.34781
+Validation loss decreased (inf --> 1.115978).  Saving model ...
+[    2/15000] train_loss: 1.21830 valid_loss: 1.06862 AUC: 0.74108AP: 0.35334
+Validation loss decreased (1.115978 --> 1.068619).  Saving model ...
+[    3/15000] train_loss: 1.17984 valid_loss: 1.11067 AUC: 0.70936AP: 0.35228
+EarlyStopping counter: 1 out of 7
+[    4/15000] train_loss: 1.15605 valid_loss: 1.11419 AUC: 0.71521AP: 0.33832
+EarlyStopping counter: 2 out of 7
+[    5/15000] train_loss: 1.12667 valid_loss: 1.10498 AUC: 0.70473AP: 0.31937
+EarlyStopping counter: 3 out of 7
+[    6/15000] train_loss: 1.10373 valid_loss: 1.12894 AUC: 0.70248AP: 0.32854
+EarlyStopping counter: 4 out of 7
+[    7/15000] train_loss: 1.08116 valid_loss: 1.18079 AUC: 0.70178AP: 0.32876
+EarlyStopping counter: 5 out of 7
+[    8/15000] train_loss: 1.06265 valid_loss: 1.21963 AUC: 0.70606AP: 0.34298
+Epoch 00008: reducing learning rate of group 0 to 8.0000e-05.
+EarlyStopping counter: 6 out of 7
+[    9/15000] train_loss: 1.06101 valid_loss: 1.15748 AUC: 0.70009AP: 0.33080
+EarlyStopping counter: 7 out of 7
+Early stopping
+/mnt/Data1/zjl/PCBEP/se3/train_esmfinal.py:85: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  graph.ndata['pos'] = torch.tensor(points, dtype=torch.float32)
+/mnt/Data1/zjl/PCBEP/se3/train_esmfinal.py:86: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  graph.ndata['f'] = torch.tensor(features, dtype=torch.float32)
+/mnt/Data1/zjl/PCBEP/se3/train_esmfinal.py:90: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  target_features = torch.tensor(target_features, dtype=torch.float32)
+/mnt/Data1/zjl/PCBEP/se3/train_esmfinal.py:100: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  graph.edata['d'] = torch.tensor(dist, dtype=torch.float32)
+/home/22zjl/.conda/envs/bcell/lib/python3.8/site-packages/torch_geometric/deprecation.py:22: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+[    1/15000] train_loss: 1.34507 valid_loss: 1.10003 AUC: 0.70251AP: 0.33731
+Validation loss decreased (inf --> 1.100027).  Saving model ...
+[    2/15000] train_loss: 1.23883 valid_loss: 1.10185 AUC: 0.69518AP: 0.33798
+EarlyStopping counter: 1 out of 7
+[    3/15000] train_loss: 1.18645 valid_loss: 1.16738 AUC: 0.70263AP: 0.33585
+EarlyStopping counter: 2 out of 7
+[    4/15000] train_loss: 1.16192 valid_loss: 1.09863 AUC: 0.70685AP: 0.33256
+Validation loss decreased (1.100027 --> 1.098635).  Saving model ...
+[    5/15000] train_loss: 1.13121 valid_loss: 1.09065 AUC: 0.70599AP: 0.33395
+Validation loss decreased (1.098635 --> 1.090648).  Saving model ...
+[    6/15000] train_loss: 1.11142 valid_loss: 1.10158 AUC: 0.71044AP: 0.33494
+EarlyStopping counter: 1 out of 7
+[    7/15000] train_loss: 1.08406 valid_loss: 1.15482 AUC: 0.69224AP: 0.31559
+EarlyStopping counter: 2 out of 7
+[    8/15000] train_loss: 1.06833 valid_loss: 1.13721 AUC: 0.69383AP: 0.30912
+EarlyStopping counter: 3 out of 7
+[    9/15000] train_loss: 1.04916 valid_loss: 1.18518 AUC: 0.67051AP: 0.29379
+EarlyStopping counter: 4 out of 7
+[   10/15000] train_loss: 1.02936 valid_loss: 1.23393 AUC: 0.68841AP: 0.30593
+EarlyStopping counter: 5 out of 7
+[   11/15000] train_loss: 1.00677 valid_loss: 1.19294 AUC: 0.68606AP: 0.31232
+Epoch 00011: reducing learning rate of group 0 to 8.0000e-05.
+EarlyStopping counter: 6 out of 7
+[   12/15000] train_loss: 0.97342 valid_loss: 1.28786 AUC: 0.66701AP: 0.29157
+EarlyStopping counter: 7 out of 7
+Early stopping
+/mnt/Data1/zjl/PCBEP/se3/train_esmfinal.py:85: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  graph.ndata['pos'] = torch.tensor(points, dtype=torch.float32)
+/mnt/Data1/zjl/PCBEP/se3/train_esmfinal.py:86: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  graph.ndata['f'] = torch.tensor(features, dtype=torch.float32)
+/mnt/Data1/zjl/PCBEP/se3/train_esmfinal.py:90: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  target_features = torch.tensor(target_features, dtype=torch.float32)
+/mnt/Data1/zjl/PCBEP/se3/train_esmfinal.py:100: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  graph.edata['d'] = torch.tensor(dist, dtype=torch.float32)
+/home/22zjl/.conda/envs/bcell/lib/python3.8/site-packages/torch_geometric/deprecation.py:22: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+[    1/15000] train_loss: 1.31307 valid_loss: 1.11859 AUC: 0.67965AP: 0.29195
+Validation loss decreased (inf --> 1.118594).  Saving model ...
+[    2/15000] train_loss: 1.22135 valid_loss: 1.11677 AUC: 0.71179AP: 0.35745
+Validation loss decreased (1.118594 --> 1.116773).  Saving model ...
+[    3/15000] train_loss: 1.18103 valid_loss: 1.07961 AUC: 0.71433AP: 0.34882
+Validation loss decreased (1.116773 --> 1.079615).  Saving model ...
+[    4/15000] train_loss: 1.14778 valid_loss: 1.08735 AUC: 0.70974AP: 0.33591
+EarlyStopping counter: 1 out of 7
+[    5/15000] train_loss: 1.11613 valid_loss: 1.13425 AUC: 0.71020AP: 0.33065
+EarlyStopping counter: 2 out of 7
+[    6/15000] train_loss: 1.09865 valid_loss: 1.18717 AUC: 0.67326AP: 0.29556
+EarlyStopping counter: 3 out of 7
+[    7/15000] train_loss: 1.08132 valid_loss: 1.16004 AUC: 0.68366AP: 0.30358
+EarlyStopping counter: 4 out of 7
+[    8/15000] train_loss: 1.06075 valid_loss: 1.17784 AUC: 0.70443AP: 0.32519
+EarlyStopping counter: 5 out of 7
+[    9/15000] train_loss: 1.03203 valid_loss: 1.16798 AUC: 0.69714AP: 0.31933
+Epoch 00009: reducing learning rate of group 0 to 8.0000e-05.
+EarlyStopping counter: 6 out of 7
+[   10/15000] train_loss: 1.01228 valid_loss: 1.18233 AUC: 0.70919AP: 0.31801
+EarlyStopping counter: 7 out of 7
+Early stopping
+/mnt/Data1/zjl/PCBEP/se3/train_esmfinal.py:85: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  graph.ndata['pos'] = torch.tensor(points, dtype=torch.float32)
+/mnt/Data1/zjl/PCBEP/se3/train_esmfinal.py:86: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  graph.ndata['f'] = torch.tensor(features, dtype=torch.float32)
+/mnt/Data1/zjl/PCBEP/se3/train_esmfinal.py:90: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  target_features = torch.tensor(target_features, dtype=torch.float32)
+/mnt/Data1/zjl/PCBEP/se3/train_esmfinal.py:100: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  graph.edata['d'] = torch.tensor(dist, dtype=torch.float32)
+/home/22zjl/.conda/envs/bcell/lib/python3.8/site-packages/torch_geometric/deprecation.py:22: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+[    1/15000] train_loss: 1.34317 valid_loss: 1.16688 AUC: 0.68143AP: 0.30584
+Validation loss decreased (inf --> 1.166881).  Saving model ...
+[    2/15000] train_loss: 1.26228 valid_loss: 1.11568 AUC: 0.69497AP: 0.33846
+Validation loss decreased (1.166881 --> 1.115681).  Saving model ...
+[    3/15000] train_loss: 1.21554 valid_loss: 1.09558 AUC: 0.70140AP: 0.35541
+Validation loss decreased (1.115681 --> 1.095577).  Saving model ...
+[    4/15000] train_loss: 1.18046 valid_loss: 1.08801 AUC: 0.69964AP: 0.35869
+Validation loss decreased (1.095577 --> 1.088015).  Saving model ...
+[    5/15000] train_loss: 1.16012 valid_loss: 1.11679 AUC: 0.69838AP: 0.35455
+EarlyStopping counter: 1 out of 7
+[    6/15000] train_loss: 1.14600 valid_loss: 1.13461 AUC: 0.66855AP: 0.31428
+EarlyStopping counter: 2 out of 7
+[    7/15000] train_loss: 1.11801 valid_loss: 1.10945 AUC: 0.69658AP: 0.33720
+EarlyStopping counter: 3 out of 7
+[    8/15000] train_loss: 1.09228 valid_loss: 1.15927 AUC: 0.68733AP: 0.31941
+EarlyStopping counter: 4 out of 7
+[    9/15000] train_loss: 1.06982 valid_loss: 1.16175 AUC: 0.69622AP: 0.32601
+EarlyStopping counter: 5 out of 7
+[   10/15000] train_loss: 1.04443 valid_loss: 1.18775 AUC: 0.68591AP: 0.31513
+Epoch 00010: reducing learning rate of group 0 to 8.0000e-05.
+EarlyStopping counter: 6 out of 7
+[   11/15000] train_loss: 1.02221 valid_loss: 1.17626 AUC: 0.68408AP: 0.31025
+EarlyStopping counter: 7 out of 7
+Early stopping
+/mnt/Data1/zjl/PCBEP/se3/train_esmfinal.py:244: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:230.)
+  pred_total = torch.tensor(pred_total)
+correct:  5041
+tn4768tp273fn163fp1838
+recall:0.6261467889908257
+precision:0.12932259592610137
+mcc:0.18300961743723118
+AUC:0.751687720643174
+AP:0.1924665189156638
+f1:0.2143698468786808
+correct:  4337
+tn4008tp329fn107fp2598
+recall:0.7545871559633027
+precision:0.11240177656303382
+mcc:0.17668277386772263
+AUC:0.7391456057462357
+AP:0.1766018143912947
+f1:0.19565863812072554
+correct:  4597
+tn4284tp313fn123fp2322
+recall:0.7178899082568807
+precision:0.11878557874762809
+mcc:0.18247182355526542
+AUC:0.7377668897054943
+AP:0.15308370068350033
+f1:0.20384239661348097
+correct:  5214
+tn4962tp252fn184fp1644
+recall:0.5779816513761468
+precision:0.13291139240506328
+mcc:0.17881698372231786
+AUC:0.7276718135028761
+AP:0.1705315791546685
+f1:0.21612349914236706
+correct:  5733
+tn5525tp208fn228fp1081
+recall:0.47706422018348627
+precision:0.1613653995345229
+mcc:0.1953316697622025
+AUC:0.7478998102920057
+AP:0.17252144521637178
+f1:0.24115942028985507
+
+Process finished with exit code 0

@@ -1,0 +1,15 @@
+1a2y_C,1a2y_B
+1bgx_T,1bgx_L
+1e6j_P,1e6j_H
+1egj_A,1egj_H
+1ezv_A,1ezv_X
+1fj1_E,1fj1_A
+1fns_A,1fns_L
+1fsk_A,1fsk_C
+1h0d_C,1h0d_B
+1iqd_C,1iqd_B
+1jrh_I,1jrh_H
+1kb5_A,1kb5_H
+1lk3_A,1lk3_L
+1mhp_B,1mhp_L
+1nca_N,1nca_H

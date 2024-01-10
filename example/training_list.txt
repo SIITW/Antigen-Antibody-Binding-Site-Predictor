@@ -1,0 +1,19 @@
+## trainning list antigen,antibody
+1a2y_C,1a2y_B
+1e6j_C,1e6j_A
+1egj_A,1egj_H
+1fj1_E,1fj1_A
+1fns_C,1fns_A
+1fsk_A,1fsk_C
+1h0d_C,1h0d_B
+1iqd_C,1iqd_B
+1jrh_C,1jrh_A
+1kb5_A,1kb5_H
+1lk3_A,1lk3_C
+1mhp_A,1mhb_C
+1nca_A,1nca_C
+1nfd_A,1nfd_E
+1nsn_C,1nsn_A
+1oaz_B,1oaz_C
+1ob1_C,1ob1_A
+1ors_C,1ors_B
