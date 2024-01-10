@@ -12,5 +12,3 @@ To construct a Singularity container, execute the following commands in your bas
 chmod +x ./build_singularity.sh
 ./build_singularity.sh
 ```
-
-Alternatively, you can reach out to Vitalii Stebliankin via email at vsteb002@fiu.edu to request a pre-configured .sif container.
