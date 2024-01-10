@@ -19,7 +19,6 @@ You can fetch our Singularity container with all pre-configured dependencies:
 
 The details on the singularity definition can be found in the folder [env](./env).
 
-| Note: The container was built with Singularity v3.5.3.
 
 ## Usage
 
