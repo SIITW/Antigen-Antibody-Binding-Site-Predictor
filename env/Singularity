@@ -1,0 +1,43 @@
+### Singularity Installation and Environment Configuration
+
+```
+//Prerequisites
+# Ensure repositories are up-to-date
+sudo apt-get update
+# Install debian packages for dependencies
+sudo apt-get install -y \
+    autoconf \
+    automake \
+    cryptsetup \
+    git \
+    libfuse-dev \
+    libglib2.0-dev \
+    libseccomp-dev \
+    libtool \
+    pkg-config \
+    runc \
+    squashfs-tools \
+    squashfs-tools-ng \
+    uidmap \
+    wget \
+    zlib1g-dev
+  
+//Install Golang
+wegt - c https://dl.google.com/go/go1.21.3.linux-amd64.tar.gz
+cd /home/[hostname]
+sudo tar -C /usr/local -xzf go1.21.3.linux-amd64.tar.gz
+echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
+source ~/.bashrc
+
+//Install golangci-lint
+curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $(go env GOPATH)/bin
+
+//Compile SingularityCE
+./mconfig
+make -C builddir # This may take some time, please wait
+sudo make -C builddir install
+
+sudo singularity build piston.sif piston.def # This will take a long time, please wait
+singularity shell ./piston.sif # If it runs, it means the installation is successful
+```
+
