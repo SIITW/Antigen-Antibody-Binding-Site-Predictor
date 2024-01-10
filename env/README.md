@@ -12,3 +12,4 @@ To construct a Singularity container, execute the following commands in your bas
 chmod +x ./build_singularity.sh
 ./build_singularity.sh
 ```
+For detailed steps, refer to [Singularity.md]([http://huanglab.phys.hust.edu.cn/software/hdocklite/](https://github.com/SIITW/Antigen-Antibody-Binding-Site-Predictor/blob/main/env/Singularity)https://github.com/SIITW/Antigen-Antibody-Binding-Site-Predictor/blob/main/env/Singularity) 
